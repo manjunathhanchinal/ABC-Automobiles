@@ -1,0 +1,65 @@
+{
+    "vehicles":[
+        {
+            "id":1,
+            "image":"https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "name":"Toyota Corolla",
+            "price":20000,
+            "mileage":15000,
+            "color":"White",
+            "seats":5,
+            "fuel":"Petrol",
+            "gear":"Automatic",
+            "description":"A reliable family car"
+        },
+        {
+            "id":2,
+            "image":"https://images.pexels.com/photos/1545743/pexels-photo-1545743.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "name":"BMW",
+            "price":30000,
+            "mileage":10000,
+            "color":"Black",
+            "seats":4,
+            "fuel":"Diesel",
+            "gear":"Manual",
+            "description":"Great design of car "
+        },
+        {
+            "id":3,
+            "image":"https://images.pexels.com/photos/1164778/pexels-photo-1164778.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "name":"Ford mustang",
+            "price":40000,
+            "mileage":17000,
+            "color":"Red",
+            "seats":5,
+            "fuel":"Hybrid",
+            "gear":"Automatic",
+            "description":"A car for agesr"
+        },
+        {
+            "id":4,
+            "image":"https://images.pexels.com/photos/1519192/pexels-photo-1519192.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "name":"Alto 800",
+            "price":25000,
+            "mileage":14000,
+            "color":"Grey",
+            "seats":5,
+            "fuel":"Petrol",
+            "gear":"Automatic",
+            "description":"A reliable family car"
+        },
+        {
+            "id":5,
+            "image":"https://images.pexels.com/photos/2470657/pexels-photo-2470657.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "name":"Toyota Corolla",
+            "price":37000,
+            "mileage":45000,
+            "color":"brown",
+            "seats":5,
+            "fuel":"Petrol",
+            "gear":"Electric",
+            "description":"A reliable family car"
+        }
+    ]
+}
+
