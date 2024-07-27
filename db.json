@@ -1,65 +1,117 @@
 {
-    "vehicles":[
-        {
-            "id":1,
-            "image":"https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg?auto=compress&cs=tinysrgb&w=600",
-            "name":"Toyota Corolla",
-            "price":20000,
-            "mileage":15000,
-            "color":"White",
-            "seats":5,
-            "fuel":"Petrol",
-            "gear":"Automatic",
-            "description":"A reliable family car"
-        },
-        {
-            "id":2,
-            "image":"https://images.pexels.com/photos/1545743/pexels-photo-1545743.jpeg?auto=compress&cs=tinysrgb&w=600",
-            "name":"BMW",
-            "price":30000,
-            "mileage":10000,
-            "color":"Black",
-            "seats":4,
-            "fuel":"Diesel",
-            "gear":"Manual",
-            "description":"Great design of car "
-        },
-        {
-            "id":3,
-            "image":"https://images.pexels.com/photos/1164778/pexels-photo-1164778.jpeg?auto=compress&cs=tinysrgb&w=600",
-            "name":"Ford mustang",
-            "price":40000,
-            "mileage":17000,
-            "color":"Red",
-            "seats":5,
-            "fuel":"Hybrid",
-            "gear":"Automatic",
-            "description":"A car for agesr"
-        },
-        {
-            "id":4,
-            "image":"https://images.pexels.com/photos/1519192/pexels-photo-1519192.jpeg?auto=compress&cs=tinysrgb&w=600",
-            "name":"Alto 800",
-            "price":25000,
-            "mileage":14000,
-            "color":"Grey",
-            "seats":5,
-            "fuel":"Petrol",
-            "gear":"Automatic",
-            "description":"A reliable family car"
-        },
-        {
-            "id":5,
-            "image":"https://images.pexels.com/photos/2470657/pexels-photo-2470657.jpeg?auto=compress&cs=tinysrgb&w=600",
-            "name":"Toyota Corolla",
-            "price":37000,
-            "mileage":45000,
-            "color":"brown",
-            "seats":5,
-            "fuel":"Petrol",
-            "gear":"Electric",
-            "description":"A reliable family car"
-        }
-    ]
+  "vehicles": [
+    {
+      "id": "1",
+      "image": "https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "name": "Toyota Corolla",
+      "price": 20000,
+      "mileage": 15000,
+      "color": "White",
+      "seats": 5,
+      "fuel": "Petrol",
+      "gear": "Automatic",
+      "description": "A reliable family car"
+    },
+    {
+      "image": "https://images.pexels.com/photos/1519192/pexels-photo-1519192.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "name": "Ferrari",
+      "price": 200000,
+      "mileage": 1700,
+      "color": "Grey",
+      "seats": 5,
+      "fuel": "Petrol",
+      "gear": "electric",
+      "description": "A reliable family car",
+      "id": "4"
+    },
+    {
+      "image": "https://images.pexels.com/photos/2470657/pexels-photo-2470657.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "name": "Toyota Corolla",
+      "price": 37000,
+      "mileage": 45000,
+      "color": "brown",
+      "seats": 5,
+      "fuel": "Petrol",
+      "gear": "manual",
+      "description": "A reliable family car",
+      "id": "5"
+    },
+    {
+      "id": "8666",
+      "image": "https://images.pexels.com/photos/2036544/pexels-photo-2036544.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "name": "Ferrari",
+      "price": 458000,
+      "mileage": 4700,
+      "color": "white",
+      "seats": 4,
+      "fuel": "petrol",
+      "gear": "electric",
+      "description": "family car"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "username": "user",
+      "password": "user123",
+      "role": "user"
+    },
+    {
+      "id": "a5e9",
+      "username": "manju",
+      "password": "manju123",
+      "role": "user"
+    },
+    {
+      "id": "6974",
+      "username": "manju",
+      "password": "manju123"
+    },
+    {
+      "id": "45f6",
+      "username": "manju",
+      "password": "manju123",
+      "role": "user"
+    },
+    {
+      "id": "df84",
+      "username": "manju",
+      "password": "manju123"
+    },
+    {
+      "id": "2d0e",
+      "username": "manju",
+      "password": "manju123",
+      "role": "user"
+    },
+    {
+      "id": "81bb",
+      "username": "manju",
+      "password": "manju123"
+    },
+    {
+      "id": "1e39",
+      "username": "manju",
+      "password": "manju123",
+      "role": "user"
+    },
+    {
+      "id": "fbd7",
+      "username": "admin",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "id": "7dbe",
+      "username": "admin",
+      "password": "admin123",
+      "role": "admin"
+    }
+  ]
 }
-
