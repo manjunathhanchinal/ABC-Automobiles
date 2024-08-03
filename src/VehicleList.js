@@ -64,16 +64,24 @@ function VehicleList() {
 
                                 {/* <button className="btn btn-danger" onClick={() =>handleDelete(vehicle.id)} >Delete</button> */}
                                 {/* <button  className="btn btn-info" onClick={()=>navigate(`/update-vehicle/${vehicle.id}`)}>Update</button> */}
-                                {
-                                users?.role === 'admin' && (
-                                    <button type="button" className="btn btn-danger me-2" onClick={() => handleDelete(vehicle.id)}>Delete</button>
-                                )}
-                                {
-                                users?.role === 'admin' && (
-
-                                    <button type="button" className="btn btn-primary" onClick={() => navigate(`/update-vehicle/${vehicle.id}`)}>Update</button>
-                                )}
-
+                                
+                                    <>
+                                        <button 
+                                            type="button" 
+                                            className="btn btn-danger me-2" 
+                                            onClick={() =>handleDelete(vehicle.id)} 
+                                        >
+                                            Delete
+                                        </button>
+<button 
+                                            type="button" 
+                                            className="btn btn-primary" 
+                                            onClick={()=>navigate(`/update-vehicle/${vehicle.id}`)}>
+                                        
+                                            Update
+                                        </button>
+                                    </>
+                                
                             </div>
                         </div>
 

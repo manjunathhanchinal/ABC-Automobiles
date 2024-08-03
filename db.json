@@ -35,18 +35,6 @@
       "gear": "manual",
       "description": "A reliable family car",
       "id": "5"
-    },
-    {
-      "id": "8666",
-      "image": "https://images.pexels.com/photos/2036544/pexels-photo-2036544.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "name": "Ferrari",
-      "price": 458000,
-      "mileage": 4700,
-      "color": "white",
-      "seats": 4,
-      "fuel": "petrol",
-      "gear": "electric",
-      "description": "family car"
     }
   ],
   "users": [

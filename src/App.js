@@ -25,10 +25,10 @@ function App() {
         <AuthProvider>
             <>
                 <Menu />
+<ErrorBoundary> 
 
                 <Routes>
                     <Route path="/" element={<Home />} />
-
                     <Route path="/about" element={<About />} />
                     <Route path="/vehicleList" element={<ProtectedRoute element={<VehicleList />} />} />                    <Route path="/add-vehicle" element={<AddVehicle />} />
                     <Route path="/update-vehicle/:id" element={<ProtectedRoute element={<UpdateVehical />} />} />
@@ -38,6 +38,7 @@ function App() {
                     <Route path="*" element={<Navigate to="/" />} />
 
                 </Routes>
+                    </ErrorBoundary>
                 <Footer />
             </>
         </AuthProvider>
